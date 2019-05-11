@@ -1,5 +1,5 @@
 {% set name = "nb_black" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 33247d55b7bfa8d1d0725c7ba0dbd1984b386ef790d5bd1f7eb7c8826cdcfea5
+  sha256: 5f05a07aeec73d5cf6036c6c3b41722d8514c95b759843ff9f90a9b3b3fc5e7a
 
 build:
   number: 0
